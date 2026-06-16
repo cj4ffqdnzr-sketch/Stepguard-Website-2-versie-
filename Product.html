@@ -256,15 +256,23 @@
   .gallery-item.feature{ grid-row: span 2; }
   @media(max-width:900px){ .gallery-item.feature{ grid-row: span 1; grid-column: span 2; } }
   @media(max-width:560px){ .gallery-item.feature{ grid-column: span 1; } }
-  .gallery-item .corner{ position: absolute; top: 16px; left: 16px; font-family: var(--mono); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); display:inline-flex; align-items: center; gap: 8px; }
+  .gallery-item .corner{ position: absolute; top: 16px; left: 16px; font-family: var(--mono); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); display:inline-flex; align-items: center; gap: 8px; z-index: 2; }
   .gallery-item .corner::before{ content:""; width: 5px; height: 5px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 6px var(--accent);}
-  .gallery-item .meta{ position: absolute; top: 16px; right: 16px; font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); }
+  .gallery-item .meta{ position: absolute; top: 16px; right: 16px; font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); z-index: 2; }
   .gallery-item .placeholder{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--dim); white-space: nowrap; }
-  .gallery-item .scan{ position: absolute; inset: 0; background: linear-gradient(180deg, transparent 0%, rgba(224,82,31,.04) 50%, transparent 100%); pointer-events: none; }
+  .gallery-item .scan{ position: absolute; inset: 0; background: linear-gradient(180deg, transparent 0%, rgba(224,82,31,.04) 50%, transparent 100%); pointer-events: none; z-index: 1; }
   .gallery-item .caption{ position: relative; z-index: 1; }
   .gallery-item .caption .lbl{ font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 6px;}
   .gallery-item .caption .ttl{ font-family: var(--display); font-weight: 600; font-size: 20px; letter-spacing: -.01em; color: var(--text); }
   .gallery-item .caption .sub{ font-family: var(--mono); font-size: 11px; color: var(--muted); margin-top: 6px; max-width: 36ch; }
+  .gallery-item > img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
 </style>
 
 <!-- ===== Storyline shared sections (quote, over, benefits, besparing, contact) ===== -->
@@ -476,41 +484,41 @@
     </div>
     <div class="gallery-grid">
       <div class="gallery-item feature">
+        <img src="images/Stepguard_inspection_system_prototype_1.png" alt="Verzegelde sensorunit" />
         <span class="corner">SG-01 · Sensorbox</span>
         <span class="meta">01 / 05</span>
         <span class="scan"></span>
         <div class="caption">
-          <img src="images/Stepguard_inspection_system_prototype_1.png" />
           <div class="lbl">Hardware</div>
           <div class="ttl">Verzegelde sensorunit</div>
           <div class="sub">IP65, geanodiseerd aluminium, edge-AI module. Werkplaats-gekalibreerd vóór levering.</div>
         </div>
       </div>
       <div class="gallery-item">
+        <img src="images/Stepguard_inspection_system_prototype_2.png" alt="Montage onder de tredenketting" />
         <span class="corner">SG-02 · Montage</span>
         <span class="meta">02 / 05</span>
-                      <span class="placeholder"><img src="images/Stepguard_inspection_system_prototype_2.png" /> </span>  
         <span class="scan"></span>
         <div class="caption"><div class="lbl">In-situ</div><div class="ttl">Onder de tredenketting</div></div>
       </div>
       <div class="gallery-item">
+        <img src="images/Stepguard_inspection_system_prototype_3.png" alt="Industriële cameramodule" />
         <span class="corner">SG-03 · Optiek</span>
         <span class="meta">03 / 05</span>
-                      <span class="placeholder"><img src="images/Stepguard_inspection_system_prototype_3.png" /> </span>  
         <span class="scan"></span>
         <div class="caption"><div class="lbl">Vision</div><div class="ttl">Industriële cameramodule</div></div>
       </div>
       <div class="gallery-item">
+        <img src="images/Stepguard_inspection_system_prototype_5.png" alt="PoE-aansluiting" />
         <span class="corner">SG-04 · Bekabeling</span>
         <span class="meta">04 / 05</span>
-                      <span class="placeholder"><img src="images/Stepguard_inspection_system_prototype_5.png" /> </span>  
         <span class="scan"></span>
         <div class="caption"><div class="lbl">Installatie</div><div class="ttl">PoE-aansluiting · 1 kabel</div></div>
       </div>
       <div class="gallery-item">
+        <img src="images/Stepguard_inspection_system_prototype_6.png" alt="Montage in het veld" />
         <span class="corner">SG-05 · Installatie</span>
         <span class="meta">05 / 05</span>
-                      <span class="placeholder"><img src="images/Stepguard_inspection_system_prototype_6.png" /> </span>  
         <span class="scan"></span>
         <div class="caption"><div class="lbl">Veld</div><div class="ttl">Montage in &lt; 2 uur</div></div>
       </div>
