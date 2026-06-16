@@ -149,7 +149,7 @@
     /* shared: quote / besparing / over / contact */
     ['Van de eerste partner', 'From our first partner', 'Vom ersten Partner'],
     ['Onderhoud plannen in plaats van brandjes blussen.', 'Planning maintenance instead of fighting fires.', 'Wartung planen statt Brände löschen.'],
-    ['Stepguard laat ons onderhoud plannen in plaats van brandjes blussen. We zien slijtage aankomen, dat verandert hoe we onze stations runnen.', 'Stepguard lets us plan maintenance instead of fighting fires. We see wear coming, and that changes how we run our stations.', 'Mit Stepguard können wir Wartung planen, statt Brände zu löschen. Wir sehen Verschleiß kommen, und das verändert, wie wir unsere Bahnhöfe betreiben.'],
+    ['We houden al toezicht op liften en zien roltrappen als de volgende logische stap op weg naar preventief onderhoud.', 'We already monitor elevators and we see Escalators as the next logical step to move to predictive maintenance.', 'Wir überwachen bereits Aufzüge und betrachten Fahrtreppen als den nächsten logischen Schritt hin zur vorausschauenden Instandhaltung.'],
     ['Stepguard laat ons onderhoud plannen in plaats van brandjes blussen. We zien slijtage aankomen, en dat verandert hoe we onze stations runnen.', 'Stepguard lets us plan maintenance instead of fighting fires. We see wear coming, and that changes how we run our stations.', 'Mit Stepguard können wir Wartung planen, statt Brände zu löschen. Wir sehen Verschleiß kommen, und das verändert, wie wir unsere Bahnhöfe betreiben.'],
     ['Besparing', 'Savings', 'Einsparung'],
     ['Reken de besparing door op uw eigen cijfers.', 'Calculate the savings on your own numbers.', 'Berechnen Sie die Einsparung mit Ihren eigenen Zahlen.'],
