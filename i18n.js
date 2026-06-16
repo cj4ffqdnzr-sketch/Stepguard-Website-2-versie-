@@ -194,7 +194,7 @@
     ['Verlengen', 'Extend', 'Verlängern'],
     ['Langere levensduur van treden, minder materiaal, minder CO₂.', 'Longer step lifespan, less material, less CO₂.', 'Längere Lebensdauer der Stufen, weniger Material, weniger CO₂.'],
     ['Vertrouwen', 'Trust', 'Vertrauen'],
-    ['AI suggereert, de mens beslist, conform de EU AI Act.', 'AI suggests, the human decides, in line with the EU AI Act.', 'Die KI schlägt vor, der Mensch entscheidet, konform mit dem EU AI Act.'],
+    ['automatische meldingen bij Slijtage,.', 'automatic notifications with wear and tear ', 'Automatische Benachrichtigung bei Verschleiß .'],
 
     ['Wie is Stepguard', 'Who is Stepguard', 'Wer ist Stepguard'],
     ['Ontstaan uit vijftig jaar techniek, gelanceerd met NS.', 'Born from fifty years of engineering, launched with NS.', 'Entstanden aus fünfzig Jahren Technik, gestartet mit NS.'],
